@@ -1,44 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## APD Front End Tech Test
 
-## Available Scripts
+#### Notes:
+- For speed I have spun up the application using Create React App (with Typescript)
+
+- I have chosen to use the Formik library to handle form validation/errors etc..
+It's saves writing alot of the boilerplate code associated with forms, I would always recommend it.
+I have done some simple manual validation of the form fields.
+
+- To get something looking beautiful with little effort I have used the Semantic UI component library.
+I could have just styled everything myself but again I choose this for speed.
+
+- I have implemented the date/time field as a text input field, however we could choose to add a date picker UI component.
+
+  ![alt text](screenshot.png#center "Incident Form Screenshot")
+
+#### Original Brief:
+In order to show off your creativity and coding skills; please can you create a web page containing a tool to 
+record basic information about an incident that has occurred somewhere in the city. 
+The reporter must be able to record at least the following information about the incident:
+
+- A summary or title
+- Extended details
+- Date & time it happened
+- Precise location where it happened
+
+We’ve been non-specific about the details; we’re interested in how you choose to do it as much as the result. 
+It’s a simple task so don’t spend many hours on it. Write something tiny and perhaps a couple of sentences about your thinking.
+
+#### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### `npm test`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
