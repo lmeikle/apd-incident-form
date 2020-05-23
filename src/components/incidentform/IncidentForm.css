@@ -1,0 +1,40 @@
+.IncidentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px 20px 20px;
+
+  text-align: left;
+}
+
+.IncidentForm__header {
+  display: flex;
+  align-items: flex-end;
+}
+
+.IncidentForm__header-logo {
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  height: 40px;
+  pointer-events: none;
+}
+
+.IncidentForm__formcontainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.IncidentForm__submit {
+  display: flex;
+  justify-content: center;
+}
+
+.IncidentForm__submit button {
+  width: 30%;
+}
+
+
+
