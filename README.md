@@ -12,7 +12,8 @@ I could have just styled everything myself but again I choose this for speed.
 
 - I have implemented the date/time field as a text input field, however we could choose to add a date picker UI component.
 
-  ![alt text](screenshot.png#center "Incident Form Screenshot")
+  ![alt text](screenshot.png "Incident Form Screenshot")
+  ![alt text](screenshot-with-errors.png "Incident Form Screenshot with validation errors")
 
 #### Original Brief:
 In order to show off your creativity and coding skills; please can you create a web page containing a tool to 
